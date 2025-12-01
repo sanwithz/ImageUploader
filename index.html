@@ -139,7 +139,6 @@
     file.setSharing(DriveApp.Access.ANYONE_WITH_LINK, DriveApp.Permission.VIEW);
     
     SpreadsheetApp.getActiveSpreadsheet().getActiveSheet().appendRow([
-    //   new Date(), data.filename, file.getUrl(), file.getDownloadUrl()
           new Date(), data.filename, file.getUrl(), "https://lh3.googleusercontent.com/d/"+file.getId()
     ]);
     
